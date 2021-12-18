@@ -8,8 +8,6 @@ a {
     text-decoration: none;
 }
 
-@import "media.css";
-
 .main {
   height: 950px;
   width: 100%;

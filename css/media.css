@@ -2,11 +2,17 @@
   .logo {
     display: none;
   }
+  .header {
+    background-image: none;
+  }
+
   .menu {
     height: auto;
     width: 250px;
     flex-grow: 0;
+    background-color: yellowgreen;
   }
+  
   .header-menu {
     display: flex;
     flex-direction: column;
