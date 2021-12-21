@@ -1,20 +1,32 @@
 @media (max-width: 700px) {
-  .logo {
+  .div-logo {
     display: none;
   }
-  .header {
-    background-image: none;
-  }
 
-  .menu {
-    height: auto;
-    width: 250px;
-    flex-grow: 0;
-    background-color: yellowgreen;
+  .header {
+    background-color: rgba(0,0,0,0);
   }
   
-  .header-menu {
+  .menu {
     display: flex;
     flex-direction: column;
+  }
+  .menu li {
+    position: relative;
+    right: 250px;
+    padding-top: 10px;
+    margin: 7px auto;
+  }
+  .main {
+    width: 454px;
+    height: 144px;
+    position: relative;
+    top: 257px;
+    left: 100px;
+  }
+  .btn {
+    position: absolute;
+    top: 457px;
+    left: 100px;
   }
 }
