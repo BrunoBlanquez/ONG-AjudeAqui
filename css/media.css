@@ -13,20 +13,27 @@
   }
   .menu li {
     position: relative;
-    right: 250px;
     padding-top: 10px;
-    margin: 7px auto;
+    margin: 0 auto;
   }
   .main {
     width: 454px;
     height: 144px;
     position: relative;
-    top: 257px;
+    top: 360px;
     left: 100px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
   }
+
+  .main h1 {
+    color: black;
+  }
+
   .btn {
     position: absolute;
-    top: 457px;
+    top: 557px;
     left: 100px;
   }
 }

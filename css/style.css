@@ -11,6 +11,7 @@ a {
 body {
   background-image: url("../img/bg-inicio.svg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
